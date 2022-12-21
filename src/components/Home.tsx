@@ -159,8 +159,9 @@ const Title = styled.div`
 `;
 
 const Img = styled.img`
+border-radius: 50% !important;
   object-fit: contain;
-  padding-top: 120px;
+  margin-top: 120px;
   animation-name: imgDev;
   animation-duration: 1s;
   animation-fill-mode: forwards;

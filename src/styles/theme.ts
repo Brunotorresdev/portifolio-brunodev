@@ -10,9 +10,9 @@ export const Theme = {
     },
   },
   colors: {
-    primary: '#5222D0',
+    primary: '#472CF0',
     black: '#212529',
-    white: '#FFFFFF',
+    white: '#D2BDFA',
     colorNeutralLight: '#8798AD'
   }
 }
