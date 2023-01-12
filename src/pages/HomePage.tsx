@@ -22,13 +22,13 @@ const HomePage = (): JSX.Element => {
       <Portifolio />
       <Services />
       <Skills />
-      <Contact />
+      {/* <Contact /> */}
       <Footer>
-        <a onClick={() => window.open("https://github.com/feliipedev")} target="_blank">
+        <a onClick={() => window.open("https://github.com/Brunotorresdev")} target="_blank">
           <ImgFooter src={GithubSvg} alt="icone github" />
         </a>
         <a
-          onClick={() => window.open("https://www.linkedin.com/in/felipe-monteiro-561a33130/")}
+          onClick={() => window.open("https://www.linkedin.com/in/bruno-torres-640036144/")}
         >
           <ImgFooter src={Linkedin} alt="icone linkedin" />
         </a>

@@ -14,6 +14,7 @@ const Portifolio = (): JSX.Element => {
   return (
     <PortfolioComponent id="portifolio">
       <h1>portifólio</h1>
+      <h2>Conheça alguns dos projetos que trabalhei, seja participando de alguma funcionalide, desenvolvendo do zero ou com objetivo de estudo :</h2>
       <Container>
         <ListProject>
           <Project>

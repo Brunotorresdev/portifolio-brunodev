@@ -28,7 +28,7 @@ const Contact = (): JSX.Element => {
       message: message,
       cellphone: `${ddd} ${phone}`
     }
-    emailjs.send('gmailMessage', 'template_tp03eww', sendEmailJs, 'bJYmHDwn0a75FxJlK')
+    emailjs.send('gmailMessage', 'template_9xxmpau', sendEmailJs, '4rrYeHnxZVGoJcM2u')
       .then((result) => {
         toast.success("Mensagem enviada com sucesso!");
         setTimeout(() => {

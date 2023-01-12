@@ -15,20 +15,20 @@ const Home = (): JSX.Element => {
             </H2>
           </Title>
           <Description>
-            Olá, eu me chamo Felipe e seja bem-vindo ao meu portifólio. Comecei
+            Olá, eu me chamo Bruno e seja bem-vindo ao meu portifólio. Comecei
             a programar quando tinha 18 anos. Queria construir um servidor
             pirata no jogo em que eu era fascinado, desde aquele primeiro
             momento com o código eu sabia que era isso que queria da vida
           </Description>
           <FlexContainer>
-            <a onClick={() => window.open("https://github.com/feliipedev")}>
+            <a onClick={() => window.open("https://github.com/Brunotorresdev")}>
               <ButtonSocialNetwork>
                 <IconSocialNetwork src={GitHub} />
                 Meu Github
               </ButtonSocialNetwork>
             </a>
             <a
-              onClick={() => window.open("https://www.linkedin.com/in/felipe-monteiro-561a33130/")}
+              onClick={() => window.open("https://www.linkedin.com/in/bruno-torres-640036144/")}
 
             >
               <ButtonSocialNetwork>

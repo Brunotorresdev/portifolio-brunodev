@@ -12,7 +12,7 @@ export const Theme = {
   colors: {
     primary: '#472CF0',
     black: '#212529',
-    white: '#D2BDFA',
+    white: '#fff',
     colorNeutralLight: '#8798AD'
   }
 }
