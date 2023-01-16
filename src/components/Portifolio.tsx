@@ -19,11 +19,11 @@ const Portifolio = (): JSX.Element => {
         <ListProject>
           <Project>
             <ImgCard src={FestMioloMole} />
-            <TitleCard>LP Doutores da Alegria</TitleCard>
+            <TitleCard>Balanço 2021 Doutores da Alegria</TitleCard>
             <ResumeCard>
               <DescriptionTitle>Descrição :</DescriptionTitle>
               <DescriptionCard>
-                Uma Landing page + checkout para o festival do miolo do mole
+                Uma aplicação onde fiz todo o front que contém informações detalhadas do balanço financeiro do festival do miolo do mole
                 onde arrecadou doações para crianças e adolescentes que estão em
                 hospitais.
               </DescriptionCard>
@@ -31,11 +31,12 @@ const Portifolio = (): JSX.Element => {
                 <Tags>JavaScript</Tags>
                 <Tags>HTML</Tags>
                 <Tags>CSS</Tags>
-                <Tags>jQuery</Tags>
+                <Tags>React</Tags>
+                <Tags>Typescript</Tags>
               </TagsStyled>
               <ButtonCardStyled>
                 <a
-                  onClick={() => window.open("http://sls-landing-page-festivalmiolomole.s3-website.us-east-1.amazonaws.com")}
+                  onClick={() => window.open("https://2021.balanco.doutoresdaalegria.org.br/")}
                 >
                   <ButtonWebSite>
                     <CardImg src={Link} alt="link" />
