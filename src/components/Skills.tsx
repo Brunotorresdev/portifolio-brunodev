@@ -3,7 +3,9 @@ import ReactIcon from "../assets/atom-symbol.png";
 import TypeScript from "../assets/typescript.png";
 import Node from "../assets/java-script.png";
 import Mongo from "../assets/icons8-mongodb.svg";
-import Postgreesql from "../assets/icons8-postgreesql.svg";
+import MySql from "../assets/mysql.png";
+import php from "../assets/php.png";
+import laravel from "../assets/laravel.png";
 import Redux from "../assets/icons8-redux.svg";
 import Git from "../assets/icons8-git.svg";
 import HTML from "../assets/icons8-html-5.svg";
@@ -19,7 +21,7 @@ const Skills = (): JSX.Element => {
             <SkillCard>
               <ImgCardSkill src={ReactIcon} alt="Icone React" />
               <TitleSkill>React JS</TitleSkill>
-              <DescriptionSkill>+ 2 anos de experiência</DescriptionSkill>
+              <DescriptionSkill>+ 1 ano de experiência</DescriptionSkill>
             </SkillCard>
             <SkillCard>
               <ImgCardSkill src={TypeScript} alt="Icone TypeScript" />
@@ -29,17 +31,12 @@ const Skills = (): JSX.Element => {
             <SkillCard>
               <ImgCardSkill src={Node} alt="Icone Node" />
               <TitleSkill>Node JS</TitleSkill>
-              <DescriptionSkill>+ 6 meses de experiência</DescriptionSkill>
+              <DescriptionSkill>1 ano de experiência</DescriptionSkill>
             </SkillCard>
             <SkillCard>
               <ImgCardSkill src={Mongo} alt="Icone Mongo" />
-              <TitleSkill>Mongo</TitleSkill>
-              <DescriptionSkill>+ 6 meses de experiência</DescriptionSkill>
-            </SkillCard>
-            <SkillCard>
-              <ImgCardSkill src={Postgreesql} alt="Icone Postgreesql" />
-              <TitleSkill>PostgreSQL</TitleSkill>
-              <DescriptionSkill>+ 6 meses de experiência</DescriptionSkill>
+              <TitleSkill>Mongo DB</TitleSkill>
+              <DescriptionSkill>1 ano de experiência</DescriptionSkill>
             </SkillCard>
             <SkillCard>
               <ImgCardSkill src={Redux} alt="Icone Redux" />
@@ -49,18 +46,35 @@ const Skills = (): JSX.Element => {
             <SkillCard>
               <ImgCardSkill src={Git} alt="Icone Git" />
               <TitleSkill>Git</TitleSkill>
-              <DescriptionSkill>+ 2 anos de experiência</DescriptionSkill>
+              <DescriptionSkill>+ 1 ano de experiência</DescriptionSkill>
             </SkillCard>
             <SkillCard>
               <ImgCardSkill src={HTML} alt="Icone HTML" />
               <TitleSkill>HTML</TitleSkill>
-              <DescriptionSkill>+ 2 anos de experiência</DescriptionSkill>
+              <DescriptionSkill>+ 1 ano de experiência</DescriptionSkill>
             </SkillCard>
             <SkillCard>
               <ImgCardSkill src={CSS} alt="Icone CSS" />
               <TitleSkill>CSS</TitleSkill>
-              <DescriptionSkill>+ 2 anos de experiência</DescriptionSkill>
+              <DescriptionSkill>+ 1 ano de experiência</DescriptionSkill>
             </SkillCard>
+
+            <SkillCard>
+              <ImgCardSkill src={laravel} alt="Icone laravel" />
+              <TitleSkill>Laravel</TitleSkill>
+              <DescriptionSkill>1 ano de experiência</DescriptionSkill>
+            </SkillCard>
+            <SkillCard>
+              <ImgCardSkill src={php} alt="Icone php" />
+              <TitleSkill>PHP</TitleSkill>
+              <DescriptionSkill>1 ano de experiência</DescriptionSkill>
+            </SkillCard>
+            <SkillCard>
+              <ImgCardSkill src={MySql} alt="Icone Mysql" />
+              <TitleSkill>MySQL</TitleSkill>
+              <DescriptionSkill>+ 1 ano de experiência</DescriptionSkill>
+            </SkillCard>
+
           </ListSkills>
         </Flex>
       </Container>

@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import GitHub from "../assets/github.png";
 import Chosen from "../assets/chosen.png";
 import AtStorage from "../assets/atstorage.png";
-import Cookenu from "../assets/cookenu.png";
+import projetoLitoralSp from "../assets/projeto-vm-emergencia-litoral-sp.png";
 import FestMioloMole from "../assets/festmiolomole.png";
 
 const Portifolio = (): JSX.Element => {
@@ -104,51 +104,27 @@ const Portifolio = (): JSX.Element => {
           </Project>
 
           <Project>
-            <ImgCard src={AtStorage} />
-            <TitleCard>AT Storage</TitleCard>
+            <ImgCard src={projetoLitoralSp} />
+            <TitleCard>EMERGÊNCIA NO LITORAL DE SÃO PAULO</TitleCard>
             <ResumeCard>
               <DescriptionTitle>Descrição :</DescriptionTitle>
               <DescriptionCard>
-                Projeto pessoal onde desenvolvi um sistema de armazenamento de
-                receitas e ingredientes.
+                Uma Landing Page para arrecadações de doações para as pessoas afetadas nas enchentes de São Paulo litoral.
               </DescriptionCard>
               <TagsStyled>
-                <Tags>JavaScript </Tags>
-                <Tags>RxJS </Tags>
-                <Tags>Google Maps </Tags>
-                <Tags>jQuery </Tags>
+                <Tags>Javascript</Tags>
+                <Tags>Html</Tags>
+                <Tags>Css</Tags>
+                <Tags>Mongo DB</Tags>
+                <Tags>Jquery</Tags>
+                <Tags>Responsividade</Tags>
               </TagsStyled>
               <ButtonCardStyled>
-                <ButtonPrivate>Projeto Privado</ButtonPrivate>
-              </ButtonCardStyled>
-            </ResumeCard>
-          </Project>
-
-          <Project>
-            <ImgCard src={Cookenu} />
-            <TitleCard>Cookenu</TitleCard>
-            <ResumeCard>
-              <DescriptionTitle>Descrição :</DescriptionTitle>
-              <DescriptionCard>
-                Uma plataforma onde o usuario pode logar com e-mail e senha e
-                cadastrar uma nova receita, ao acessar a página inicial ele
-                retorna todas as receitas cadastradas na plataforma.
-              </DescriptionCard>
-              <TagsStyled>
-                <Tags>typescript</Tags>
-                <Tags>React</Tags>
-                <Tags>Node JS</Tags>
-                <Tags>MongoDB</Tags>
-              </TagsStyled>
-              <ButtonCardStyled>
-                <a
-                  href="https://github.com/feliipedev/Cookenu-backend"
-                  target="_blank"
-                >
-                  <ButtonGitHub>
-                    <CardImg src={GitHub} alt="botão do github" />
-                    Github
-                  </ButtonGitHub>
+                <a href="https://visaomundial.org/emergencia-litoralsp/" target="_blank">
+                  <ButtonWebSite>
+                    <CardImg src={Link} alt="link" />
+                    Website
+                  </ButtonWebSite>
                 </a>
               </ButtonCardStyled>
             </ResumeCard>
